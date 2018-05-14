@@ -13,10 +13,15 @@ documentation, tutorials, etc..
 
 **Example Usage**
 
-Details pending service deployment on our cloud provider.
+You can share complete `catalog.json` or "fix" `catalog.partial.json` files
+based on your workflow (e.g. whether you're using the my VCV Rack fork).
+
+**Note: the following rackcli features are currently in alpha testing -- contact
+me (details below) if you'd like to be join the beta test program.**
 
 ```
-curl -d "@catalog.json" -X POST http://SERVICE:PORT/catalog/share
+rackcli cloud --share [RACK/plugins/catalog.partial.json]
+rackcli cloud --sync [RACK/plugins/catalog.partial.json]
 ```
 
 Again, check out the open issues marked "enhancement" for additional active conversations and please submit your own features/priorities/suggestions [there](https://github.com/dirkleas/rackcli/issues) as well. You can also reach out via the official [VCV Rack group](https://www.facebook.com/groups/vcvrack/) on Facebook or [message](https://www.facebook.com/dirkleas) me directly -- front there, we can bounce out to Skype or email as appropriate.
