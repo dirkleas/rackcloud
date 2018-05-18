@@ -1,0 +1,7 @@
+{
+  "name": "rackcloud",
+  "version": "0.6.0",
+  "description": "rackcloud services for VCV Rack for rackcli and DLwigglz r4xH4x",
+  "author": "Dirk Leas (dirkleas@gmail.com)",
+  "license": "BSD-3-Clause"
+}
